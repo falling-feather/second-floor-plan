@@ -1,0 +1,15 @@
+Dependencies used by this project
+
+three 0.180.0
+File: three-0.180.0.tgz
+Source: https://registry.npmjs.org/three/-/three-0.180.0.tgz
+License: MIT; full license is included in the npm package and output/design/THREE-LICENSE.txt.
+
+@types/three 0.180.0
+File: types-three-0.180.0.tgz
+Source: https://registry.npmjs.org/@types/three/-/three-0.180.0.tgz
+License: MIT; full license is included in the npm package.
+
+These unmodified official npm archives are local file dependencies recorded in
+package.json and pnpm-lock.yaml, retained for reproducible installation after a
+registry download failure. They are not project source backups or design assets.

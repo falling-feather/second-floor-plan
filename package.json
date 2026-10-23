@@ -1,0 +1,25 @@
+{
+  "name": "second-floor-plan",
+  "private": true,
+  "packageManager": "pnpm@11.25.0",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "artifacts": "node scripts/build.mjs && node scripts/export-design.mjs",
+    "dev": "node scripts/build.mjs && node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs",
+    "test": "node scripts/build.mjs && node scripts/export-design.mjs && node --test tests/*.test.mjs",
+    "check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/three": "file:vendor\\types-three-0.180.0.tgz",
+    "esbuild": "0.25.12",
+    "typescript": "5.9.3"
+  },
+  "dependencies": {
+    "three": "file:vendor\\three-0.180.0.tgz"
+  }
+}
